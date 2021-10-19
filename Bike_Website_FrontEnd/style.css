@@ -1,0 +1,257 @@
+html{
+    background-image: linear-gradient(#FC5E55, #FA4883);
+
+}
+
+body{
+    background-image: url(Images/image-lion-background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    color:white;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.125rem;
+}
+
+
+
+.container{
+    width: 1024px;
+    
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header{
+
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+    
+}
+
+main{
+    
+    min-height: 300px;
+    display: flex;
+    align-items: center; 
+}
+
+.main2{
+    min-height: 300px;
+    padding-top: 50px;
+}
+
+.cards{
+    
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.card1{
+    background-image: url(Images/image-background-card1.jpg);
+    background-size: cover;
+    background-position:bottom ;
+    min-height: 300px;
+    width: 30%;
+}
+
+.card2{
+    
+    background-image: url(Images/image-background-card2.jpg);
+    background-size: cover;
+    background-position:bottom ;
+    min-height: 300px;
+    width: 30%;
+}
+
+.card3{
+    
+    background-image: url(Images/image-background-card3.jpg);
+    background-size: cover;
+    background-position:bottom ;
+    min-height: 300px;
+    width: 30%; 
+}
+
+.card1,.card2,.card3{
+    
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.40);
+}
+
+.herobox1{
+   
+    flex: 2;
+    padding-right: 100px;
+}
+
+.herobox2{
+    
+    flex: 1;
+}
+
+
+h1{
+    font-size: 3.25rem;
+    margin-bottom: 1rem;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.40);
+    
+} 
+
+h2{
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+    
+    
+}
+
+
+
+p{
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+.cards p{
+
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin-top: 10px;
+}
+
+i{
+    font-size: 5.5rem;
+    
+    
+}
+
+.cards a {
+    color:white;
+    text-decoration: none;
+}
+
+ .mybutton {
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+    background-color: white;
+    color: #FA4883;
+    font-family:  'Playfair Display', serif;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.40);
+    
+    
+}
+
+.mybutton:hover{
+    background-color: #c9c9c9;
+    transition-duration: 1s;
+}
+
+a.mybutton{
+    display: inline-block;
+    margin-top: 20px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.40);
+}
+
+.herobox2 img{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.40);
+}
+
+nav a.mybutton{
+    margin-left: 50px;
+    
+    
+}
+
+.navbutton{
+    border-style: solid;
+    border-width: 1px;
+    padding: 11px 25px;
+    font-family:  'Playfair Display', serif;
+    display: inline-block;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    
+}
+
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.tbox{
+
+    width:47%;
+    padding: 50px;
+    border: 1px solid white ;
+    box-sizing: border-box;
+    margin-top: 50px;
+
+}
+    
+
+.dropdown{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.navbutton:hover .dropdown{
+    display: block;
+}
+
+.dropdown .navbutton {
+    width: 120px;
+    background-color: white;
+}
+
+.dropdown .navbutton a{
+    color: #FA4883;
+}
+
+.navbutton a{
+     
+    text-decoration: none;
+    color: white;
+}
+
+
+.inputwrapper{
+    margin:20px 20px 20px 0px ;
+}
+
+
+input[type=text], input[type=email], textarea{
+    padding:12px 20px;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    font-size: 0.85rem;
+}
+
+.newline{
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+
